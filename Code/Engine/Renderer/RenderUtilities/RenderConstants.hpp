@@ -1,0 +1,48 @@
+#pragma once
+
+
+
+// Data Types
+
+#define BYTE_TYPE				0x1400
+#define UNSIGNED_BYTE_TYPE		0x1401
+#define SHORT_TYPE				0x1402
+#define UNSIGNED_SHORT_TYPE		0x1403
+#define INT_TYPE				0x1404
+#define UNSIGNED_INT_TYPE		0x1405
+#define FLOAT_TYPE				0x1406
+#define DOUBLE_TYPE				0x140A
+
+
+
+// Blend Factors
+
+#define ZERO_BLEND					0x0000
+#define ONE_BLEND					0x0001
+#define SOURCE_COLOR				0x0300
+#define SOURCE_COLOR_INVERSE		0x0301
+#define SOURCE_ALPHA				0x0302
+#define SOURCE_ALPHA_INVERSE		0x0303
+#define DESTINATION_ALPHA			0x0304
+#define DESTINATION_ALPHA_INVERSE	0x0305
+#define DESTINATION_COLOR			0x0306
+#define DESTINATION_COLOR_INVERSE	0x0307
+
+
+
+// Primitive Types
+
+#define POINTS_PRIMITIVE		0x0000
+#define LINES_PRIMITIVE			0x0001
+#define LINE_LOOP_PRIMITIVE		0x0002
+#define TRIANGLES_PRIMITIVE		0x0004
+#define QUADS_PRIMITIVE			0x0007
+
+
+
+// Filters & Wrap Modes
+
+#define NEAREST_FILTER		0x2600
+#define LINEAR_FILTER		0x2601
+#define CLAMP_WRAP			0x2900
+#define REPEAT_WRAP			0x2901
